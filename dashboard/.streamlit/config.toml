@@ -1,0 +1,15 @@
+# 开发者菜单隐藏
+[server]
+toolbarMode = "minimal"
+[browser]
+gatherUsageStats = false
+
+# 物流风主题：货运深蓝 + 警示橙 + 面单纸色
+# 注意：secondaryBackgroundColor 是输入框/代码块等控件的底色，必须浅色，否则深底深字不可读
+# 侧边栏的深蓝由 app.py 的 CSS 渐变控制，不走这个配置
+[theme]
+base = "light"
+primaryColor = "#E8802E"
+backgroundColor = "#F6F4EE"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2A3D"
